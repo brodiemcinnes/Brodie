@@ -1,2 +1,1 @@
-# Brodies Portfolio
-Brodie's website and personal portfolio
+# Card menu design using HTML and the CSS animation module
