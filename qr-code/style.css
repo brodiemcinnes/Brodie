@@ -1,0 +1,45 @@
+/* Colour pallet from Coolors - https://coolors.co/f0a202-f18805-d95d39-202c59-581f18 */
+:root {
+    --marigold: #f0a202ff;
+    --tangerine: #f18805ff;
+    --flame: #d95d39ff;
+    --space-cadet: #202c59ff;
+    --caput-mortuum: #581f18ff;
+}
+
+body {
+    background-color: var(--space-cadet) !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+}
+
+.content-box {
+    height: 600px;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: var(--caput-mortuum);
+    border-radius: 12px;
+    box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.75);
+}
+
+.qr-code {
+    display: block;
+    margin: auto;
+    width:  300px;
+    border-radius: 1p2x;
+}
+
+.scan-to-visit {
+    color: var(--marigold);
+    font-size: 2rem;
+    text-align: center;
+    padding: 150px 10px 50px 10px;
+}
